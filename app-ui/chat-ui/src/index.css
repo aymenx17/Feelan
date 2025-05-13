@@ -1,0 +1,27 @@
+/* Global styles for the entire app */
+body {
+  margin: 0; /* Remove default margin */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; /* Use a system font stack for better performance */
+  -webkit-font-smoothing: antialiased; /* Improve font rendering on WebKit browsers */
+  -moz-osx-font-smoothing: grayscale; /* Improve font rendering on macOS */
+  font-size: 16px; /* Set a base font size */
+  line-height: 1.5; /* Improve readability with a better line height */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace; /* Use a monospace font for code */
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 14px; /* Reduce base font size on smaller screens */
+  }
+
+  .App {
+    font-size: calc(8px + 2vmin); /* Adjust font size for smaller screens */
+    padding: 1rem; /* Adjust padding for smaller screens */
+  }
+}

@@ -1,0 +1,10 @@
+Flask
+flask_cors
+gunicorn
+Werkzeug
+transformers
+google-cloud-storage
+flask_jwt_extended
+eth-account
+Flask-Limiter
+openai

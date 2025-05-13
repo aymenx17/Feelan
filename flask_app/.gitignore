@@ -1,0 +1,19 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*.class
+
+# Environment
+.env
+venv/
+env/
+*.log
+
+# OS files
+.DS_Store
+
+# Credentials and sensitive info
+*.pem
+*.key
+secrets/
+

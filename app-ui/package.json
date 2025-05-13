@@ -1,0 +1,8 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "chat-ui",
+    "aoconnect-isolated"
+  ]
+}
