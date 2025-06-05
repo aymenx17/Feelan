@@ -2,6 +2,11 @@
 
 A decentralized application integrating Arweave, AO processes, Uniswap for token swaps, and NFT minting capabilities.
 
+## Screenshots
+
+![Feelan UI](feelan_UI.png)
+*Screenshot from an earlier version of the project showing the chat-based trading interface with token balance management and automated swap execution.*
+
 ## Project Structure
 
 - **irys_server/**: Backend server handling blockchain interactions
